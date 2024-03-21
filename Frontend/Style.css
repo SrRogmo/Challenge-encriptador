@@ -1,0 +1,19 @@
+header{
+    text-align: left;
+}
+.caja{
+    width: 120px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+
+@media screen and (max-width:480px){
+    .caja{
+        width: auto;
+    }
+}
+
+

@@ -1,14 +1,21 @@
-header{
-    text-align: left;
-}
 .caja{
     width: 120px;
     height: 48px;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
     display: inline-block;
 }
-
+.cuadroTexto{
+    width: 577px;
+    height: 40px;   
+    margin-top: 140px;
+    margin-left: 240px;
+}
+.botonCodificador{
+    margin-top: 442px;
+    margin-left: 240px;
+    margin-right: 4%;
+}
 
 @media screen and (max-width:480px){
     .caja{

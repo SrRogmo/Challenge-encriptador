@@ -1,4 +1,4 @@
-.caja{
+.Logo{
     width: 120px;
     height: 48px;
     margin-top: 20px;
@@ -8,7 +8,7 @@
 .cuadroTexto{
     width: 500px;
     height: 400px;   
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 200px;
 }
 #digitador{
@@ -22,26 +22,26 @@
 }
 .botonCodificador{
     margin-right: 0;
-    margin-top: 50px;
-    margin-left: 250px;
+    margin-top: 70px;
+    margin-left: 225px;
     display: inline-block;
 }
-button.botonCodificador{
-    width: 170px;
+#botonEncriptado{
+    width: 228px;
     height: 50px;
+    border: 2%;
+    border-color: #0A3871;
+    border-radius: 18px;
 }
 .botonDecodificador{
-    width: auto;
-    height: auto;
     border-radius: 24px;
-    margin-left: 200px  ;
+    margin-left: 25px  ;
     display: inline-block;
 }
 
-@media screen and (max-width:480px){
-    .caja{
-        width: auto;
-    }
+#botonDecodificado{
+    width: 228px;
+    height: 50px;
+    border: 2%;
+    border-radius: 18px;
 }
-
-

@@ -15,3 +15,9 @@ Al ubicar correctamente el cuadro de texto e indentificar el cuadro de texto cor
 Actualizacion 24-03-24
 
 Se ajusta el borde de el boton de encriptado y el nuevo boton de desencriptado, se alinean correctamente para la visual grafia en ordenador.
+
+`CUADRO DE TEXTO DESENCRIPTADO`
+
+Actualizacion 10/04/2024
+
+Se agrega la nueva imagen para el cuadro de desencriptado en contenedor que permita realizar posteriores correcciones de posicion visual a la pantalla, se cambia en el cuerpo en el archivo indez el color para dar fondo e identificar el color blanco del cuadro de desencriptado.

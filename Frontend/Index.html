@@ -8,23 +8,28 @@
     <link rel="stylesheet" href="Style.css">
 </head>
     <body bgcolor="#F3F5FC">
+        <!--Logo-->
         <div class="Logo">
                 <h1>
                     <img src="/Frontend/Imagenes/Logo.png"/>
                 </h1>
         </div>
+        <!--Cuadro con caja de encriptado-->
         <div class="cuadroTexto">
             <textarea id="digitador">Inserte el texto aquí.</textarea>
         </div>
+        <!--Cuadro de visualizaicon de texto encriptado-->
         <div class="cuadroDesencriptado">
             <p id="contenedorTexto">
-                <img src="/Frontend/Imagenes/Muñeco.png"/>
+                <img id="imagenMuneco"src="/Frontend/Imagenes/Muñeco.png"/>
+                    <button id="botonCopiado">Copiar</button>
             </p>
         </div>
-        <div class="botonCodificador">
+        <!--Botones inferiores de encriptado o desencriptado-->
+        <div class="botonE">
             <button id="botonEncriptado">Encriptar</button>
         </div>
-        <div class="botonDecodificador">
+        <div class="botonD">
             <button id="botonDecodificado">Desencriptar</button>
         </div>
         </form>

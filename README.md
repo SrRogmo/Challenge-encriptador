@@ -20,4 +20,8 @@ Se ajusta el borde de el boton de encriptado y el nuevo boton de desencriptado, 
 
 Actualizacion 10/04/2024
 
-Se agrega la nueva imagen para el cuadro de desencriptado en contenedor que permita realizar posteriores correcciones de posicion visual a la pantalla, se cambia en el cuerpo en el archivo indez el color para dar fondo e identificar el color blanco del cuadro de desencriptado.
+Se agrega la nueva imagen para el cuadro de desencriptado en contenedor que permita realizar posteriores correcciones de posicion visual a la pantalla, se cambia en el cuerpo en el archivo index el color para dar fondo e identificar el color blanco del cuadro de desencriptado.
+
+13/04/2024
+
+Actualizacion de organizacion y detalles sobre la caja de desencriptado, tal como agregar el boton de copiar, se agrega detalles como sombreado a la caja, se actualiza caja de desacriptado como flotante en l aparte derecha dejando un margen de un 10% de acuerdo a la pantalla, se consigue que se encuentre en el lateral pero sigue con alteracion con los otros elementos.

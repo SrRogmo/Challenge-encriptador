@@ -25,3 +25,13 @@ Se agrega la nueva imagen para el cuadro de desencriptado en contenedor que perm
 13/04/2024
 
 Actualizacion de organizacion y detalles sobre la caja de desencriptado, tal como agregar el boton de copiar, se agrega detalles como sombreado a la caja, se actualiza caja de desacriptado como flotante en l aparte derecha dejando un margen de un 10% de acuerdo a la pantalla, se consigue que se encuentre en el lateral pero sigue con alteracion con los otros elementos.
+
+
+14/04/2024
+
+Se modifica la visual de los botones dando sombreado para a la caja de digitacion de texto y dando estetica, al igual que se añade un favicon a la pagina con el mismo logo el cual se a agregado a la pagina final de desencriptado, para la fecha, estas configuracion no es visualmente apta para otras pantallas o dispositivos, por lo cual es posible que haya que acercar o alejar un poco para que sea visible con claridad.
+
+
+16/04/2024
+
+Se realiza modifiaciones sobre el textarea, el cual impide que sea posible alterar el tamaño del mismo para que el usuario no tenga inconvenientes visuales, se agrega filtro de degrade al logo para toque estetico, se el archivo de JS, para asignar la funcion de los elementos que puede visualizar el usuario para que de igual forma estos se puedan usar.

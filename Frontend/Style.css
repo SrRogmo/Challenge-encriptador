@@ -3,6 +3,9 @@
     height: 48px;
     margin-top: 20px;
     margin-left: 20px;
+    filter: drop-shadow(
+        0 0 10px rgb(148, 148, 148)
+    );
 }
 .cuadroTexto{
     width: 500px;
@@ -19,7 +22,9 @@
     border-radius: 5%;
     border-color: #0A3871;
     display: inline-block;
+    box-shadow: 10px 10px 5px  rgb(206, 206, 206);
     padding: 3%;
+    resize: none;
 }
 .cuadroDesencriptado{
     width: auto;
@@ -45,6 +50,7 @@
     border-radius: 18px;
     margin-top: 20px;
     margin-left: 62px;
+    box-shadow: 5px 5px 5px  rgb(206, 206, 206);
 }
 .botonE{
     margin-right: 0;
@@ -58,6 +64,7 @@
     border: 2%;
     border-color: #0A3871;
     border-radius: 18px;
+    box-shadow: 5px 5px 5px  rgb(206, 206, 206);
 }
 .botonD{
     border-radius: 24px;
@@ -70,4 +77,5 @@
     height: 50px;
     border: 2%;
     border-radius: 18px;
+    box-shadow: 5px 5px 5px  rgb(206, 206, 206);
 }

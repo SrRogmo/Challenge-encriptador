@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Style.css">
     <link rel="icon" href="/Frontend/Imagenes/Logo.png" type="image/x-icon">
 </head>
-    <body bgcolor="#F3F5FC">
+    <body class="cuerpo">
         <!--Logo-->
         <div class="Logo">
                 <h1>
@@ -23,7 +23,13 @@
         <div class="cuadroDesencriptado">
             <p id="contenedorTexto">
                 <img id="imagenMuneco"src="/Frontend/Imagenes/Muñeco.png"/>
-                    <button id="botonCopiado" onclick="copiar">Copiar</button>
+                <h1 id="textoDecodificado">
+                    Ningún mensaje fue encontrado
+                </h1>
+                <h2 id="textoAdicional">
+                    Ingresa el texto que desees encriptar o desencriptar.
+                </h2>
+                <button id="botonCopiado" onclick="copiar">Copiar</button>
             </p>
         </div>
         <!--Botones inferiores de encriptado o desencriptado-->

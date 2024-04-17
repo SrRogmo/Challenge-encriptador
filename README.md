@@ -35,3 +35,11 @@ Se modifica la visual de los botones dando sombreado para a la caja de digitacio
 16/04/2024
 
 Se realiza modifiaciones sobre el textarea, el cual impide que sea posible alterar el tamaño del mismo para que el usuario no tenga inconvenientes visuales, se agrega filtro de degrade al logo para toque estetico, se el archivo de JS, para asignar la funcion de los elementos que puede visualizar el usuario para que de igual forma estos se puedan usar.
+
+
+- Segunda fase - funcional
+
+`BOTON DE ENCRIPTADO`
+
+17/04/2024
+

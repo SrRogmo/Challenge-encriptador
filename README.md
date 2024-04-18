@@ -37,9 +37,14 @@ Se modifica la visual de los botones dando sombreado para a la caja de digitacio
 Se realiza modifiaciones sobre el textarea, el cual impide que sea posible alterar el tamaño del mismo para que el usuario no tenga inconvenientes visuales, se agrega filtro de degrade al logo para toque estetico, se el archivo de JS, para asignar la funcion de los elementos que puede visualizar el usuario para que de igual forma estos se puedan usar.
 
 
+17/04/2024
+
+Al validar ,os detalles sobre la estructura visual del archivo index, se actualiza eliminando un identificador y agregando los elementos del identificador a la clase a al que pertenece el Id, esto ayudo a que se pudiese contener los elementos de texto en el Div, sin necesidad de que se desborde y sea necesario configurarlo de otra forma, se ajustan visualmente los elementos para que se vean centrados en el contenedor del texto.
+
 - Segunda fase - funcional
 
 `BOTON DE ENCRIPTADO`
 
-17/04/2024
+18/04/2024
 
+Para el boton de encriptado, se confirma que cada uno de los botontes funcionan correctamente cuando se llama a la funcion, en la cual se esta tomando el elemento por ID.

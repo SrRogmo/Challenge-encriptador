@@ -1,10 +1,13 @@
 function encriptar(){
-    let texto = document.getElementById("digitador").value;
-    let
+    let texto = document.getElementById("botonEncriptado")
 }
 function desEncriptar(){
 
 }
 function copiar(){
+    alert ("se ha copiado correctamente")
+}
+
+if(texto){
 
 }

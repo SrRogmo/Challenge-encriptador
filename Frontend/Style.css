@@ -1,7 +1,7 @@
 .cuerpo{
     background-color: #F3F5FC;
-    height: 768px;
-    width: 1366px;
+    height: auto;
+    width: auto;
 }
 .encabezado{
     width: 200px;

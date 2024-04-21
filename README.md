@@ -2,11 +2,7 @@
 
 - Primera fase - visual
 
-`LOGO`
-
 El ajuste de los elementos y para la la verificacion la correcta posicion de cada uno, como primera instancia se realizan modificaciones para la correcta posicion del logo, se consigue la correcta posicion del logo con la posicion de los pixeles de la izquierta y la parte superior, generando un margen para separarlo del la parte superior y la parte izquierda, el logo se encuentra asignado en un contenedor con una clase la cual la facilita para verificar la informacion mas eficiente en el archivo de estilos CSS.
-
-`CUADRO DE TEXTO Y BOTÓN DECODIFICACIÓN`
 
 Se verifica que el cuadro de texto sea un input, se realiza varias modificaiones y pruebas sobre elk cuadro de texto en la rama de pruebas de visual y de la GUI al verificar que el cuadro de texto input, no es el requerido se realiza la actualizacion del cuadro por uno de texto el cual aun no tiene el texto predefinido para digitar, se alinea con el logo al darle margen y altura y ancho, se le asigna un contenedor para que este se pueda identificar correctamente.
 
@@ -15,8 +11,6 @@ Al ubicar correctamente el cuadro de texto e indentificar el cuadro de texto cor
 Actualizacion 24-03-24
 
 Se ajusta el borde de el boton de encriptado y el nuevo boton de desencriptado, se alinean correctamente para la visual grafia en ordenador.
-
-`CUADRO DE TEXTO DESENCRIPTADO`
 
 Actualizacion 10/04/2024
 
@@ -43,8 +37,10 @@ Al validar ,os detalles sobre la estructura visual del archivo index, se actuali
 
 - Segunda fase - funcional
 
-`BOTON DE ENCRIPTADO`
-
 18/04/2024
 
 Para el boton de encriptado, se confirma que cada uno de los botontes funcionan correctamente cuando se llama a la funcion, en la cual se esta tomando el elemento por ID.
+
+20/04/2024
+
+ajustes visuales sobre el texto del cuadro con desencriptado, de igual forma, se añade la funcion de encriptado al texto digitado en textarea, en el cual se remplaza el contenido del cuadro de desencriptado en el cual se agrega un div con el cual se elimina todo el contenido salvo el boton de copiado.

@@ -12,14 +12,12 @@
         <!--Logo-->
         <header class="encabezado">
             <div class="Logo">
-                <h1>
-                    <img src="/Frontend/Imagenes/Logo.png"/>
-                </h1>
-        </div>
+                <img src="/Frontend/Imagenes/Logo.png"/>
+            </div>
         </header>
         <!--textarea y punto de informacion-->
         <div value= "texto" class="cuadroTexto">
-            <textarea name="validar"
+            <textarea name="digitador"
             id="digitador"
             cols="30"
             rows="10"
@@ -28,17 +26,18 @@
         <!--Cuadro de resultado-->
         <div class="cuadroDesencriptado">
             <p>
-                <img id="imagenMuneco"src="/Frontend/Imagenes/Muñeco.png"/>
-                <div class="textos">
-                    <h1 id="textoDecodificado">
-                        Ningún mensaje fue encontrado
-                    </h1>
-                    <h2 id="textoAdicional">
-                        Ingresa el texto que desees encriptar o desencriptar.
-                    </h2>
+                <div id="contenidoTextoD">
+                    <img id="imagenMuneco"src="/Frontend/Imagenes/Muñeco.png"/>
+                    <div class="textos">
+                        <h1 id="textoDecodificado">
+                            Ningún mensaje fue encontrado
+                        </h1>
+                        <h2 id="textoAdicional">
+                            Ingresa el texto que desees encriptar o desencriptar.
+                        </h2>
+                    </div>
                 </div>
-                <button id="botonCopiado"
-                    onclick="copiar()">Copiar</button>
+                <button id="botonCopiado" onclick="copiar()">Copiar</button>
             </p>
         </div>
         <!--Botones inferiores de encriptado o desencriptado-->

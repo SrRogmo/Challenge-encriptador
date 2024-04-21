@@ -7,7 +7,7 @@ function encriptar(){
     .replace(/i/gi,"imes")
     .replace(/o/gi,"ober")
     .replace(/u/gi,"ufat");
-    if (document.getElementById("digitador") != 0){
+    if (texto != 0){
         texto = textoEncriptado;
         contenidoTextoD.textContent = textoEncriptado;
     }
@@ -17,8 +17,15 @@ function encriptar(){
 }
 
 function desEncriptar(){
-    
-}
-function copiar(){
-    alert ("se ha copiado correctamente")
+    let texto = document.getElementById("digitador").value;
+    let textoDesencriptado = texto
+    .replace(/ai/gi,"a")
+    .replace(/enter/gi,"e")
+    .replace(/imes/gi,"i")
+    .replace(/ober/gi,"o")
+    .replace(/ufat/gi,"u");
+    if(texto != 0){
+        texto = textoDesencriptado;
+        contenidoTextoD.textContent = textoDesencriptado;
+    }
 }

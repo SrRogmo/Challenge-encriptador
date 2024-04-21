@@ -43,4 +43,4 @@ Para el boton de encriptado, se confirma que cada uno de los botontes funcionan 
 
 20/04/2024
 
-ajustes visuales sobre el texto del cuadro con desencriptado, de igual forma, se añade la funcion de encriptado al texto digitado en textarea, en el cual se remplaza el contenido del cuadro de desencriptado en el cual se agrega un div con el cual se elimina todo el contenido salvo el boton de copiado.
+ajustes visuales sobre el texto del cuadro con desencriptado, de igual forma, se añade la funcion de encriptado al texto digitado en textarea, en el cual se remplaza el contenido del cuadro de desencriptado en el cual se agrega un div con el cual se elimina todo el contenido salvo el boton de copiado, se elimina la alerta al momento de realizar el copiado del boton.
